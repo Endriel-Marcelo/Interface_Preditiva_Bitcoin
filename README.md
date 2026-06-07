@@ -24,6 +24,7 @@ Instale as dependências:
 
 ```bash
 pip install -r requirements.txt
+```
 
 ## Banco de dados
 
@@ -31,10 +32,22 @@ O banco de dados utilizado neste projeto foi obtido no Kaggle, no dataset **Bitc
 
 Por conta do tamanho do arquivo original, o arquivo `bitcoin_data.csv` não foi incluído diretamente neste repositório.
 
-Para executar o projeto, baixe o dataset no Kaggle, renomeie o arquivo para:
+Para executar o projeto, baixe o dataset no Kaggle e renomeie o arquivo para:
 
 ```text
-bitcoin_data.csv ```
-Coloque o arquivo bitcoin_data.csv na mesma pasta do app.py.
+bitcoin_data.csv
+```
+
+Coloque o arquivo `bitcoin_data.csv` na mesma pasta do `app.py`.
+
 Execute o projeto pelo terminal/CMD:
+
+```bash
 streamlit run app.py
+```
+
+Depois disso, o sistema será aberto no navegador. Caso não abra automaticamente, acesse o link mostrado no terminal, geralmente:
+
+```text
+http://localhost:8501
+```
