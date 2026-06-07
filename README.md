@@ -34,7 +34,7 @@ Por conta do tamanho do arquivo original, o arquivo `bitcoin_data.csv` não foi 
 Para executar o projeto, baixe o dataset no Kaggle, renomeie o arquivo para:
 
 ```text
-bitcoin_data.csv
+bitcoin_data.csv ```
 Coloque o arquivo bitcoin_data.csv na mesma pasta do app.py.
 Execute o projeto pelo terminal/CMD:
 streamlit run app.py
